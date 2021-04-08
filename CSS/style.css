@@ -1,178 +1,122 @@
-*
-{
-    padding: 0;
+*{
     margin: 0;
-        box-sizing: border-box;
+    padding: 0;
 }
 
-body 
-{
-    font-family: sans-serif;
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url('https://i.gifer.com/XtaS.gif') no-repeat center;
+    z-index: 99999;
 }
-.menu-bar
-{
-    background: rgb(100,0,0);
-    text-align: center;
+.bgimg{
+    background-image:url('https://www.timico.com/wp-content/uploads/2020/10/COMPUTER-LEARNING-MONTH-HEADER.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
 }
-.menu-bar ul
-{
-    display: inline-flex;
-    list-style: none;
-    color: #fff;
+.hearderset {
+    padding-top: 250px;
+    box-sizing: border-box;
+
 }
-.menu-bar ul li
-{
-    width: 157px;
-    margin: 19px;
-    padding: -15px;
+.hearderset h2{
+    font-size: 42px;
 }
-.menu-bar ul li a
-{
-    text-decoration: none;
-    color: #fff;
-}
-IMG{
-    float: left;
-}
-.active, .menu-bar ul li:hover
-{
-    background: #2bab0d;
-    border-radius: 4px;
+.hearderset h1{
+    font-size: 82px;
+    font-weight: bold;
 }
 
-.menu-bar .fa{
-    margin-right: 8px;
-}
-.sub-menu-1{
-    display: none;
-}
-.menu-bar ul li:hover .sub-menu-1 
-{
-    display: block;
-    position: absolute;
-    background: rgb(0,100,0);
-     margin-top: 15px;
-    margin-left: -15px;
-}
 
-.menu-bar ul li:hover .sub-menu-1 ul {
-    display: block;
-    margin: 10px;
+
+.ourservices{
+    padding: 100px 0px 60px;
+    height: 700px;
 }
-.menu-bar ul li:hover .sub-menu-1 ul li
-{
-    width: 150px;
+.ourservices h1{
+    font-size: 50 px;
+    font-weight: bold;
+}
+.rowsetting{
+    margin: 80px 0px ! important;
+}
+.imgsetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.fa-shopping-cart{
+margin-top: 20px;
+}
+.fa-desktop{
+    margin-top: 26px;
+}
+.fa-lock{
+    margin-top: 25px;
+}
+.rowsetting h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.rowsetting p{
     padding: 10px;
-    border-bottom: 1px dotted red;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
+    color: #6c757d! important;
 }
-.menu-bar ul li:hover .sub-menu-1 ul li:last-child
-{
- border-bottom: none;
-    
+.PORTFOLIO{
+    height: 1100px;
+    width: 100%;
+    padding: 100px 0px 50px;
 }
-.menu-bar ul li: hover .sub-menu-1 ul li a:hover{
-    color: ;
+.PORTFOLIO h1{
+    font-size: 50px;
+    font-weight: bold;
 }
-fa fa-angel-right{
-    float: right;
+.card{
+    margin-top: 40px;
 }
-.sub-menu-2
-{
-    display: none;
-}
-.hover-me: hover.sub-menu-2
-{
-    position: absolute;
-    display: block;
-    margin-top: -40px;
-    margin-left: 140px;
-    background: rgb(0,100,0);
-}
-
-.searchbox{
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    height: 40px;
-    background-color: #2f3640;
-    border-radius: 40px;
-    padding: 10px;
-    transform: translate(-50%, -50%);
-    }
- #textbox{
-            
-    background: none;
-    border: none;
-    outline: none;
-    font-size: 20px;
-    width: 0;
-    transition:  all 0.4s;
-    color: white;
-    }
-.fa-search
-        {
-    color: aquamarine;
-     width: 40px;
-     height: 40pxpx;
-     line-height: 20px;
-     border-radius: 50%;
-    text-align: center;           
-        }
-        .searchbox:hover #textbox{
-            width: 240px;
-        }
-        .searchbox:hover . fa-search{
-            background: white;
-}
-table{
-    border-collapse: collapse;
+.ourteam{
+    height: 700px;
+    padding: 100px 0p 60px;
     width: 100%;
 }
-th,td{
-    text-align: center;
-    padding: 8px;
-    color: hotpink;
+.ourteam h1{
+    font-size: 50px;
+    font-weight: bold;
 }
-tr:nth-child(even){
-    background-color: yellow;
+.teamsetting{
+    margin-top: 70px;
 }
-body H2, h4{
-    color: yellowgreen;
-    
+@media(min-width: 992px){
+
 }
-BODY H4{
-    font-size: 30PX;
+@media(min-width: 768px) and (max-width:991px){
+
 }
-BODY P1{
-    color: darkblue;
-    font-size: 32PX;
+@media(min-width: 575px) and (max-width:767px){
+
 }
-body h3{
-    color: RED;
-    font-size: 28PX;
+@media(min-width: 480px) and (max-width:574px){
+
 }
-BODY P2{
-    color: orange;
-    font-size: 30PX;
-}
-BODY P3{
-    color: mediumvioletred;
-    font-size: 38PX;
-}
-BODY H2{
-    font-size: 27PX;
-}
-BODY H1{
-    font-size: 31PX;
-    color: orangered;
-}
-BODY P4{
-    font-size: 20PX;
-    color: darkgreen;
-}
-TABLE TR TH{
-    color: orangered;
+@media(max-width:479px){
+    .hearderset h2{
+        font-size: 22px;
+    }
+    .hearderset h1{
+        font-size: 42px;
+        font-weight: bold;
+    }
+    .ourservices{
+        height: 1200px;
+    }
+    .PORTFOLIO{
+        height: 3000px;
+    }
+    .ourteam{
+        height: 1000px;
+    }
 }
